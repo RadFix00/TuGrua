@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #FCA311;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.entrada {
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.registro {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.terminos {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.h61, .h62 {
+    display: inline;
+    margin: 0;
+    font-size: 14px;
+    padding: 4px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+.h62 {
+    color:white
+}
+
+h1 {
+    font-size: 400%;
+    margin-bottom: 20px;
+}
+
+.botones {
+    color: white;
+    background-color: #343434;
+    border-radius: 25px;
+    padding: 15px;
+    width: 170px;
+    border: 0;
+    font-size: 20px;
+}
+
+.botones:hover {
+    transform: scale(1.1);
+
+
+}
+
+@media (max-width: 480px) {
+    .entrada {
+        width: 320px;
+    }
+}

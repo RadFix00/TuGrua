@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #FCA311;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 400%;
+}
+
+@media (max-width: 480) {
+
+    
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+</head>
+
+<body>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" 
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <div id="mapa"></div>
+
+
+    <div class="contenedor">
+        <div class="interfa">
+            <select id="cars" name="cars">
+                <option value="" disabled selected>TIPO DE VEHICULO</option>
+                <option value="volvo">Moto</option>
+                <option value="saab">Carro</option>
+                <option value="fiat">Camioneta</option>
+                <option value="audi">Furgoneta</option>
+            </select>
+            
+            <input type="text" id="origen" class="entrada" placeholder="Origen" required>
+            <input type="text" id="destino" class="entrada" placeholder="Destino" required>
+            <button type="button" class="botones" id="trazar">Confirmar</button>
+            <div class="registro">
+                <h6 class="h61">Al darle al boton iniciar estas aceptando los</h6>
+                <a href="/html/terminosycondiciones.html">
+                    <h6 class="h62">Terminos y condiciones</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="/js/mapa.js"></script> 
+
+</body>
+</html>
