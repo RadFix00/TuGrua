@@ -89,7 +89,7 @@ document.getElementById('trazar').addEventListener('click', function () {
                 [destino.lat, destino.lng]
             ]);
 
-            // Agregar marcadores para origen y destino
+            // Agre gar marcadores para origen y destino
             originMarker = L.marker(origen).addTo(map)
                 .bindPopup("Origen: " + dirorigen)
                 .openPopup();
